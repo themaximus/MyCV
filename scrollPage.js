@@ -23,17 +23,8 @@
         });
 
         let xyz = 0;
-  
-      //   let Fon =  document.getElementById('Fon').addEventListener('scroll', function () {
-            
-            
-      //       xyz = xyz + 50;
-      //       this.style.bottom = xyz + 'px';
-            
-      // });
 
-
-      let Body =  window.addEventListener('wheel', function (event) {
+        let Body =  window.addEventListener('wheel', function (event) {
             
         let Fon =  document.getElementById('Fon');
         
@@ -56,6 +47,11 @@
 
         
   });
+
+
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        };
     
     
     
