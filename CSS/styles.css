@@ -1,0 +1,29 @@
+#example-1 {
+    width: 1534px; height: 753px; background-color:rgb(190, 10, 10);scroll-snap-align: start;
+}
+
+#example-2 {
+    width: 1534px; height: 753px; background-color:rgb(10, 190, 121);scroll-snap-align: start;
+}
+
+#example-3 {
+    width: 1534px; height: 753px; background-color:rgb(10, 169, 190); scroll-snap-align: start;
+}
+
+@media screen and (max-device-width: 1200px) {
+    #FonContainer {
+      display: none;
+    }
+
+    #SliderButton {
+        width: 0px;
+        background-color: black;
+       
+    }
+  }
+
+@media screen and (max-device-width: 360) {
+    #white {
+        width: 360px;
+    }
+  }
