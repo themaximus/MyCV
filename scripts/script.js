@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         
         Avatar.style.cssText= ' transition-duration: 2s; width: 300px; height: 300px; opacity: 1;  user-select: none;  margin-top: 90px;    ' ;  
-         SkillCont.style.cssText= ' transition-duration: 2s; width: 550px; height: 100px; opacity: 1;  ' ;
+         SkillCont.style.cssText= ' margin-top: 10px; transition-duration: 2s; width: 550px; height: 100px; opacity: 1;  ' ;
          Name.style.cssText= ' transition-duration: 2s; font-size: 45px;  display: flex; justify-content:center; user-select: none;  opacity: 1;   ' ;
          
 
