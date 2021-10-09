@@ -1,65 +1,46 @@
+let LanguageRu =  document.getElementById('RU');
+  LanguageRu.onclick = function() { 
+    let RuFon = document.getElementById('RU');
+    let EngFon = document.getElementById('ENG');
+    let UaFon = document.getElementById('UA');  
+    RuFon.style.cssText = "background-color: rgb(7, 255, 40); margin: 5px; font-size: 30px; cursor: pointer; border-radius: 5px;";
+    UaFon.style.cssText = " margin: 5px; font-size: 30px; cursor: pointer;";
+    EngFon.style.cssText = " margin: 5px; font-size: 30px; cursor: pointer;";
+    document.getElementById('contentMe').innerHTML = "Русский";
+    document.getElementById('name').innerHTML = "Максим Геращенко";
+    document.getElementById('diss').innerHTML = "В процессе создания."
+  };
 
-        let offset =0;
-        let boba = document.getElementById('slider_items');
-        
-        let Men = document.getElementById('Next').addEventListener('click', function () {
-            
-            offset= offset + 1534;   
-            if ( offset > 3068 ) {
-              offset = 0;
-            } 
-              boba.style.left = -offset + 'px';
-              
-        });
+  let LanguageEng =  document.getElementById('ENG');
+  LanguageEng.onclick = function() { 
+    let RuFon = document.getElementById('RU');
+    let EngFon = document.getElementById('ENG');
+    let UaFon = document.getElementById('UA');
+    RuFon.style.cssText = " margin: 5px; font-size: 30px; cursor: pointer;";
+    UaFon.style.cssText = " margin: 5px; font-size: 30px; cursor: pointer;";
+    EngFon.style.cssText = "background-color: rgb(7, 255, 40); margin: 5px; font-size: 30px; cursor: pointer; border-radius: 5px; ";
+    document.getElementById('contentMe').innerHTML = "English";
+    document.getElementById('name').innerHTML = "Maxim Gerashchenko";
+    document.getElementById('diss').innerHTML = "In process making."
+  };
 
-        let Men2 = document.getElementById('Prev').addEventListener('click', function () {
-            
-            offset= offset - 1534;   
-            if ( offset < 0 ) {
-              offset = 3068;
-            } 
-              boba.style.left = -offset + 'px';
-              
-        });
+  let LanguageUa =  document.getElementById('UA');
+  LanguageUa.onclick = function() { 
+    let RuFon = document.getElementById('RU');
+    let EngFon = document.getElementById('ENG');
+    let UaFon = document.getElementById('UA');
+    RuFon.style.cssText = " margin: 5px; font-size: 30px; cursor: pointer;";
+    EngFon.style.cssText = " margin: 5px; font-size: 30px; cursor: pointer;";
+    UaFon.style.cssText = "background-color: rgb(7, 255, 40); margin: 5px; font-size: 30px; cursor: pointer; border-radius: 5px;";
+    document.getElementById('contentMe').innerHTML = "Українська";
+    document.getElementById('name').innerHTML = "Максим Геращенко";
+    document.getElementById('diss').innerHTML = "В процесі створення."
+  };
 
-        let xyz = 0;
-  
-      //   let Fon =  document.getElementById('Fon').addEventListener('scroll', function () {
-            
-            
-      //       xyz = xyz + 50;
-      //       this.style.bottom = xyz + 'px';
-            
-      // });
-
-
-      let Body =  window.addEventListener('wheel', function (event) {
-            
-        let Fon =  document.getElementById('Fon');
-        
-        if (event.deltaY < 0) {
-
-        xyz = xyz - 40;
-        Fon.style.bottom = xyz + 'px';
-        } else if (event.deltaY > 0) {
-          xyz = xyz + 40;
-        Fon.style.bottom = xyz + 'px';
-        } 
-        
-        if (xyz < 40) {
-          xyz = 40;
-        }
-
-        if ( xyz > 400) {
-          xyz = 400;
-        }
-
-        
-  });
-    
 
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
+    
   };
     
     
