@@ -1,5 +1,5 @@
 # test
 
-https://themaximus.github.io/MyCV/
+https://themaximus.github.io/test/
 
 on development stage)
