@@ -10,6 +10,13 @@
     width: 1534px; height: 753px; background-color:rgb(10, 169, 190); scroll-snap-align: start;
 }
 
+.Header:hover {
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
 .Language:hover {
     background-color: rgb(206, 206, 206);
     border-radius: 5px;
@@ -23,12 +30,18 @@
     animation-iteration-count: infinite;
 }
 
-/* #HTML {
+#HTML {
     animation-name: StackElem1;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-} */
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: blueviolet;
+}
 
 
 @media screen and (max-device-width: 1200px) {
@@ -87,4 +100,15 @@
         margin-bottom: 10PX;
         
     }
+
 }
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: gray;
+    transition: left 0.5s ease-out;
+  }
