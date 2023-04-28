@@ -85,7 +85,7 @@
     }
 }
 
-@keyframes StackElem1 {
+/* @keyframes StackElem1 {
     0% {
         margin-bottom: 10px;
         
@@ -101,7 +101,7 @@
         
     }
 
-}
+} */
 
 #sidebar {
     position: absolute;
@@ -112,3 +112,13 @@
     background-color: gray;
     transition: left 0.5s ease-out;
   }
+
+* {
+    margin: 0px; padding: 0;
+}
+
+
+  
+
+
+
