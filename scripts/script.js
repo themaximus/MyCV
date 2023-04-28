@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
 
         
-        Avatar.style.cssText= ' top: 50%; left: 50%; transform: translate(-50%, -50%); position: absolute;  transition-duration: 2s; width: 200px; height: 200px; opacity: 1;  user-select: none;  text-align: center;    ' ;
+//         Avatar.style.cssText= ' top: 50%; left: 50%; transform: translate(-50%, -50%); position: absolute;  transition-duration: 2s; width: 200px; height: 200px; opacity: 1;  user-select: none;  text-align: center;    ' ;
         Ramka.style.cssText= ' float: left; position: relative; display: inline-block; margin-left: auto; margin-right: auto;  width: 250px; height: 250px; background-color: rgb(247, 247, 247);  border-radius: 250px; transition-duration: 2s; opacity: 1;  user-select: none; margin: 20px; text-align: center;    ' ;  
         
          
